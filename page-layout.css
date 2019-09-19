@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page in layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #559b91;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+     <div class="header">
+        <h1>Travelig to Livov</h1>
+     </div>
+
+
+     .hero-block {​border​: ​3px​ solid ​#355723​;
+        ​background-color​: ​#dfedd6​;
+    }
+     
+
+/*loggin bloc*/
+<div></div>
+
+</div>
+
+/*main blog*/
+<div>
+/*article */ /*rticle*/
+
+/*footer*/
+
+<div></div>
+
+</div>
+
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+
+</html>

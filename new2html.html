@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang"en"=>
+<head>
+  <title>layout page</title>
+ 
+<meta charset="utf-8">
+
+<style>
+
+.header {
+  width: 100%;
+  height: 50px;
+  border: 3px solid blue;  
+  background-color: #BCA9F5; 
+}
+   .hero-block {
+	 display:block;
+     width: 100%;
+     height: 250px;
+     border: 3px solid blue;    
+     background-color: #81BEF7;
+	 position:relative;
+} 
+	.form {
+    background:white;
+    float: right;
+    width: 240px;
+    padding: 5px;
+    margin-right:20px;
+	margin-top:25px;
+    color: #7b7b7b; 
+}
+	.input[type=text],input [type=password] {
+     width: 100px;
+     display: inline-block;
+     border: 1px solid #ccc;
+     box-sizing:border-box;
+	 padding:2px;
+	 position:absolute;
+	 float:right;	
+}
+	.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+	.main {
+	 display: inline-block;
+     width: 100%;
+     height: 300px;
+     border: 3px solid blue;    
+     background-color: #81F7F3; 
+}
+   .main1 {
+     width: 40%;
+     height: 190px;
+	 margin-top:10%;
+	 margin-left:5%;
+     border: 1px solid pink;
+     float:left;	 
+     background-color: #F6CED8;
+}	
+    .main2 {
+     width: 40%;
+     height: 190px;
+	 margin-top:10%;
+	 margin-right:5%;
+     border: 1px solid pink;
+	 float:right;
+     background-color: #F6CED8; 
+}
+   .footer {
+     width: 100%;
+     height: 60px;
+     border: 3px solid blue;    
+     background-color:#F5DA81;
+}
+  
+</style>
+</head>
+
+<body>
+
+<div style="width:600px; height:1000px; border:black; padding:2px">
+	<div class="header"></div>
+	<div class="hero-block">
+		<form class="form">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required><br>
+			<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required><br>
+			<button type="submit">Login</button>
+		</form>
+	</div>
+	   
+	<div class="main">
+		<div class="main1">"Пума" - одна из старейших компаний, по производству спортивной обуви
+			<img src="puma-logo.png" alt="logo puma" width="76px" height="70px" style="float:right" align="top">
+		</div>
+		<div class="main2">"Аддидас" - одна из старейших компаний, по производству спортивной обуви
+			
+			<img src="addidas.png" alt="logo addidas" width="30%" height="40%" style="float:left" align="top">	
+		</div>
+	</div>
+	<div class="footer"></div>
+</div>
+
+
+</body>
+</html>
